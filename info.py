@@ -34,7 +34,7 @@ USERNAME = environ.get("USERNAME", "Filmfold2_Bm")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1003231863223").split()
+    for ch in environ.get("CHANNELS", "-1003231863223 -1002944143159").split()
 ]
 
 # ForceSub Channel & Log Channels
