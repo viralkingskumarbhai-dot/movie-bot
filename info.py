@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003272436840"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003229335462"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1003272436840"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1003272436840")
 REQUEST_CHANNEL = (
@@ -64,15 +64,15 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1003214602185"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+5A_UE23000lmZDJl")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+Vk3DOTxlUDo1MTE1")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+ZbtMYaytewE2NThl")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/+JbtZN6tkUnkxYjZl")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+JbtZN6tkUnkxYjZl")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+JbtZN6tkUnkxYjZl")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Get_Video/1")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_To_Get_Video/1")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_To_Get_Video/1")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
