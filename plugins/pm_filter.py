@@ -1310,7 +1310,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
             ],
             [
-                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
                 InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
             ],
             [
@@ -1343,7 +1342,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "jisshupremium":
         btn = [
             [
-                InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ", callback_data="seeplans"),
                 InlineKeyboardButton("ʀᴇꜰᴇʀ & ᴇᴀʀɴ", callback_data="reffff"),
             ],
             [InlineKeyboardButton("⋞ ʜᴏᴍᴇ", callback_data="start")],
@@ -1537,7 +1535,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʀᴇᴘᴏ", url="https://github.com/JisshuTG/Jisshu-filter-bot"
+                    "ʀᴇᴘᴏ", url="https://t.me/Mahesh8182"
                 )
             ],
             [
